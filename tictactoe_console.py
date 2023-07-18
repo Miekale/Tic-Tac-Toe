@@ -41,7 +41,7 @@ def start_player(player):
 
 #player input
 def get_input(player):
-    print(f'Which row and column to put the {player}')
+    print(f'Enter which row and column to put the {player}')
     x = input()
     y = input()
     try:
@@ -90,10 +90,11 @@ def switch_player(player):
 #main program
 
 current_player = start_player(current_player)
-
+print("The bottom left is 1, 1 ")
 while winner == None:
     cls()
-    
+    print("The bottom left is 1, 1 ")
+
     print_board(board)  
 
     column = None
